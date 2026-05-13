@@ -1,0 +1,15 @@
+Introduction to Roll-Up Summary Fields:
+While formula fields calculate values using fields within a single record, roll-up summary fields calculate values from a set of related records, such as those in a related list. You can create roll-up summary fields that automatically display a value on a master record based on the values of records in a detail record. These detail records must be directly related to the master through a master-detail relationship.
+
+Defining a Roll-Up Summary Field
+Since roll-up summary fields are based on master-detail relationships, it’s useful to review object relationships before creating a roll-up summary field.
+
+Creating the Summary Field:
+From Setup, open Object Manager and click Account.
+On the left sidebar, click Fields & Relationships.
+Click New.
+Choose the Roll-Up Summary field type, and click Next.
+For Field Label, enter XXXXXXXXXXXX and click Next.
+The Summarized Object is the detail object that you want to summarize. Choose Opportunities.
+Choose the SUM Roll-up type and choose Amount as the Field to Aggregate. If you're unable to see Amount in Field to Aggregate, disable the Advanced Currency Management in your Currency Setup.
+Click Next, Next, and Save.

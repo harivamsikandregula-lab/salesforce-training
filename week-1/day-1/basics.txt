@@ -1,0 +1,29 @@
+1. Core Business Value
+Unified Platform: Salesforce eliminates disconnected systems by bringing Sales, Marketing, Service, and IT together on one shared platform
+High ROI: 89% of customers see a positive return on investment in their very first year
+Efficiency: Utilizing automation and AI can increase sales productivity by 29% and decrease customer support costs by 27%
+
+2. The Four Main Record Types (Objects)
+Leads: Unqualified opportunities, such as a person who just filled out a form on your website
+Accounts: The organizations or companies you are doing business with
+Contacts: The specific people associated with those organizations
+Opportunities: Qualified deals that you are actively trying to close
+
+Questions:
+1.What problem does Salesforce solve?
+A:Many companies use too many different computer programs, which causes workers to lose important customer information and communicate poorly. Salesforce fixes this by putting all employees into one shared system. This way, everyone looks at the exact same information, which makes their work much faster, easier, and cheaper
+
+2.What is CRM?
+A:CRM is a smart digital system that businesses use to keep track of all the people and companies they interact with. Unlike a basic spreadsheet that just holds data, a CRM helps your team actively track daily tasks and guides potential sales step-by-step from the very first conversation to a completed deal
+
+3. What is an Object in Salesforce? Give one example.
+A:An Object is a digital record or file that represents a real-world thing. Because you cannot physically place a person or an entire company into a computer system, Salesforce uses these digital files to keep track of them
+Example: An Account is an object used to store the details of the different organizations or companies you are currently working with
+
+4. Difference between Salesforce Admin and Developer.
+A:A Salesforce Admin typically sets up and customizes the platform using built-in, click-and-drag menus (like adding new fields, users, or automated rules). A Salesforce Developer is someone who writes custom computer code to build highly complex features or tools that the standard menus cannot handle.
+
+5.Suggest one real-world application that can be built using Salesforce.
+A:You can build an automated website lead tracker. For example, if a customer visits your website and fills out a "Book a Consultation" form, Salesforce can automatically create a new "Lead" record for them. The system can then instantly send them a welcome email with resources, automatically notify the right salesperson to call them, and help the sales team track every step of the conversation until a deal is closed
+
+

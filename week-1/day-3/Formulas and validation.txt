@@ -1,0 +1,53 @@
+Here’s a brief, from-basics summary of this whole Use Formula Fields unit, covering all key ideas.
+
+1. What formula fields are
+A formula field is a read-only field whose value is calculated automatically from other fields, constants, operators, and functions.
+
+The formula itself is stored as metadata; the value is calculated on the fly whenever you view a record or run a report.
+
+2. Why formula fields are useful
+They let users see important calculations instantly (percentages, days until close, discounts) without manual work.
+
+They can pull related data (like an Account field onto Contact) and show it directly on the page, report, or list view.
+
+They improve data understanding and consistency by presenting derived information in one place.
+
+3. Where you can use them
+You can create formula fields on any standard or custom object (Account, Contact, Opportunity, custom objects, etc.).
+
+Formula fields can also be used as columns in reports and appear in list views, giving instant calculated values there too.
+
+4. How to create a formula field (basic flow)
+Go to Setup → Object Manager → choose an object (like Opportunity or Contact).
+
+Fields & Relationships → New → select Formula as the data type → Next.
+
+Enter Field Label (Field Name auto-fills) and choose a Return Type (Text, Number, Currency, Checkbox, etc.).
+
+In the formula editor, build your formula using fields, operators, and functions, then Check Syntax and Save.
+
+5. Formula editor basics
+Use the Advanced editor (recommended) – it just gives you more tools, not more complexity.
+
+Insert Field: picks fields and inserts correct syntax (including cross-object paths like Contact.Account.AccountNumber).
+
+Insert Operator: adds math and logical operators (+, -, *, /, AND, OR, =, <>).
+
+Functions menu: adds built-in functions like TODAY(), LEN(text), ROUND(number, decimals), etc.
+
+Whitespace doesn’t matter, but object/field names and function names are case-sensitive.
+
+Check Syntax finds problems before you save.
+
+6. Core example patterns
+Cross-object display (Account field on Contact):
+Example: Account.AccountNumber to show an Account’s number directly on Contact.
+
+Days until an Opportunity closes:
+Example: CloseDate - TODAY() returns the number of days between today and Close Date.
+
+Discount calculation:
+Example: ROUND(Amount * 0.88, 2) to apply a 12% discount and round to 2 decimals.
+
+Checkbox “big deal” flag:
+Example: AND(Account.NumberOfEmployees > 1000, Amount > 10000) for a Boolean “big opportunity” field.
